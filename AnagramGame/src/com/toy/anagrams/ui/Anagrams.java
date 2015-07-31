@@ -270,7 +270,9 @@ public class Anagrams extends JFrame {
             feedbackLabel.setText("Incorrect! Try again!");
             guessedWord.setText("");
         }
-
+        int a = 1;
+        if(a==1)
+            a=2;
         guessedWord.requestFocusInWindow();
     }//GEN-LAST:event_guessedWordActionPerformed
 
